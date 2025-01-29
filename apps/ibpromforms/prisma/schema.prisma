@@ -13,3 +13,9 @@ model HrForm {
   status    Int?
   updatedAt DateTime @updatedAt
 }
+
+model User {
+  emailAddress String  @unique
+  name         String?
+  roleId       Int?
+}
