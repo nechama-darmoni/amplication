@@ -19,23 +19,27 @@ const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
   emailAddress: "exampleEmailAddress",
+  id: "exampleId",
   name: "exampleName",
   roleId: 42,
 };
 const CREATE_RESULT = {
   emailAddress: "exampleEmailAddress",
+  id: "exampleId",
   name: "exampleName",
   roleId: 42,
 };
 const FIND_MANY_RESULT = [
   {
     emailAddress: "exampleEmailAddress",
+    id: "exampleId",
     name: "exampleName",
     roleId: 42,
   },
 ];
 const FIND_ONE_RESULT = {
   emailAddress: "exampleEmailAddress",
+  id: "exampleId",
   name: "exampleName",
   roleId: 42,
 };

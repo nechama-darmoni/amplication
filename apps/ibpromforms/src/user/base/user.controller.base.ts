@@ -32,6 +32,7 @@ export class UserControllerBase {
       data: data,
       select: {
         emailAddress: true,
+        id: true,
         name: true,
         roleId: true,
       },
@@ -47,6 +48,7 @@ export class UserControllerBase {
       ...args,
       select: {
         emailAddress: true,
+        id: true,
         name: true,
         roleId: true,
       },
@@ -63,6 +65,7 @@ export class UserControllerBase {
       where: params,
       select: {
         emailAddress: true,
+        id: true,
         name: true,
         roleId: true,
       },
@@ -88,6 +91,7 @@ export class UserControllerBase {
         data: data,
         select: {
           emailAddress: true,
+          id: true,
           name: true,
           roleId: true,
         },
@@ -113,6 +117,7 @@ export class UserControllerBase {
         where: params,
         select: {
           emailAddress: true,
+          id: true,
           name: true,
           roleId: true,
         },

@@ -16,6 +16,7 @@ model HrForm {
 
 model User {
   emailAddress String  @unique
+  id           String?
   name         String?
   roleId       Int?
 }
